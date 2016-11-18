@@ -1,0 +1,25 @@
+PODS:
+  - BaiduMapKit (3.0.0)
+  - DVVAlertView (1.0.2)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - DVVAlertView (from `https://github.com/devdawei/DVVAlertView.git`, tag `v1.0.2`)
+
+EXTERNAL SOURCES:
+  DVVAlertView:
+    :git: https://github.com/devdawei/DVVAlertView.git
+    :tag: v1.0.2
+
+CHECKOUT OPTIONS:
+  DVVAlertView:
+    :git: https://github.com/devdawei/DVVAlertView.git
+    :tag: v1.0.2
+
+SPEC CHECKSUMS:
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  DVVAlertView: 20534ca4582d008bb12b62532468e73be963b135
+
+PODFILE CHECKSUM: 8e4c0feaa8fcdb486704c96edc5847998cc5e9ea
+
+COCOAPODS: 1.0.1

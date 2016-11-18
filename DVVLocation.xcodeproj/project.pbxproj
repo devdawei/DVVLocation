@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F89DF3DB8405DDBBA823A88 /* libPods-DVVLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C7E88A6651CE734ED940CE /* libPods-DVVLocation.a */; };
+		D957CDAD1DC72ADC00CA4E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDAC1DC72ADC00CA4E99 /* main.m */; };
+		D957CDB01DC72ADC00CA4E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDAF1DC72ADC00CA4E99 /* AppDelegate.m */; };
+		D957CDB31DC72ADC00CA4E99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDB21DC72ADC00CA4E99 /* ViewController.m */; };
+		D957CDB61DC72ADC00CA4E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D957CDB41DC72ADC00CA4E99 /* Main.storyboard */; };
+		D957CDB81DC72ADC00CA4E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D957CDB71DC72ADC00CA4E99 /* Assets.xcassets */; };
+		D957CDBB1DC72ADC00CA4E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D957CDB91DC72ADC00CA4E99 /* LaunchScreen.storyboard */; };
+		D957CDC61DC72ADC00CA4E99 /* DVVLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDC51DC72ADC00CA4E99 /* DVVLocationTests.m */; };
+		D957CDD31DC72B7B00CA4E99 /* DVVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDD21DC72B7B00CA4E99 /* DVVLocation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D957CDC21DC72ADC00CA4E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D957CDA01DC72ADC00CA4E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D957CDA71DC72ADC00CA4E99;
+			remoteInfo = DVVLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D48DC72221D88767D580756 /* Pods-DVVLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVVLocation/Pods-DVVLocation.release.xcconfig"; sourceTree = "<group>"; };
+		88C7E88A6651CE734ED940CE /* libPods-DVVLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DVVLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDF4EA7B142F7D7955F148F /* Pods-DVVLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVVLocation/Pods-DVVLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		D957CDA81DC72ADC00CA4E99 /* DVVLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVVLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D957CDAC1DC72ADC00CA4E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D957CDAE1DC72ADC00CA4E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D957CDAF1DC72ADC00CA4E99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D957CDB11DC72ADC00CA4E99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D957CDB21DC72ADC00CA4E99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D957CDB51DC72ADC00CA4E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D957CDB71DC72ADC00CA4E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D957CDBA1DC72ADC00CA4E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D957CDBC1DC72ADC00CA4E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D957CDC11DC72ADC00CA4E99 /* DVVLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVVLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D957CDC51DC72ADC00CA4E99 /* DVVLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVLocationTests.m; sourceTree = "<group>"; };
+		D957CDC71DC72ADC00CA4E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D957CDD11DC72B7B00CA4E99 /* DVVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVLocation.h; sourceTree = "<group>"; };
+		D957CDD21DC72B7B00CA4E99 /* DVVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVLocation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D957CDA51DC72ADC00CA4E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F89DF3DB8405DDBBA823A88 /* libPods-DVVLocation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D957CDBE1DC72ADC00CA4E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C9A705417C429A018AB4F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BDF4EA7B142F7D7955F148F /* Pods-DVVLocation.debug.xcconfig */,
+				7D48DC72221D88767D580756 /* Pods-DVVLocation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FD1CD9C9C520FBF5B3CA297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C7E88A6651CE734ED940CE /* libPods-DVVLocation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D957CD9F1DC72ADC00CA4E99 = {
+			isa = PBXGroup;
+			children = (
+				D957CDAA1DC72ADC00CA4E99 /* DVVLocation */,
+				D957CDC41DC72ADC00CA4E99 /* DVVLocationTests */,
+				D957CDA91DC72ADC00CA4E99 /* Products */,
+				1C9A705417C429A018AB4F86 /* Pods */,
+				3FD1CD9C9C520FBF5B3CA297 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D957CDA91DC72ADC00CA4E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDA81DC72ADC00CA4E99 /* DVVLocation.app */,
+				D957CDC11DC72ADC00CA4E99 /* DVVLocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D957CDAA1DC72ADC00CA4E99 /* DVVLocation */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDD01DC72B6900CA4E99 /* DVVLoaction */,
+				D957CDAE1DC72ADC00CA4E99 /* AppDelegate.h */,
+				D957CDAF1DC72ADC00CA4E99 /* AppDelegate.m */,
+				D957CDB11DC72ADC00CA4E99 /* ViewController.h */,
+				D957CDB21DC72ADC00CA4E99 /* ViewController.m */,
+				D957CDB41DC72ADC00CA4E99 /* Main.storyboard */,
+				D957CDB71DC72ADC00CA4E99 /* Assets.xcassets */,
+				D957CDB91DC72ADC00CA4E99 /* LaunchScreen.storyboard */,
+				D957CDBC1DC72ADC00CA4E99 /* Info.plist */,
+				D957CDAB1DC72ADC00CA4E99 /* Supporting Files */,
+			);
+			path = DVVLocation;
+			sourceTree = "<group>";
+		};
+		D957CDAB1DC72ADC00CA4E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDAC1DC72ADC00CA4E99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D957CDC41DC72ADC00CA4E99 /* DVVLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDC51DC72ADC00CA4E99 /* DVVLocationTests.m */,
+				D957CDC71DC72ADC00CA4E99 /* Info.plist */,
+			);
+			path = DVVLocationTests;
+			sourceTree = "<group>";
+		};
+		D957CDD01DC72B6900CA4E99 /* DVVLoaction */ = {
+			isa = PBXGroup;
+			children = (
+				D957CDD11DC72B7B00CA4E99 /* DVVLocation.h */,
+				D957CDD21DC72B7B00CA4E99 /* DVVLocation.m */,
+			);
+			path = DVVLoaction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D957CDA71DC72ADC00CA4E99 /* DVVLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D957CDCA1DC72ADC00CA4E99 /* Build configuration list for PBXNativeTarget "DVVLocation" */;
+			buildPhases = (
+				1B005151DBA3C2691216D942 /* [CP] Check Pods Manifest.lock */,
+				D957CDA41DC72ADC00CA4E99 /* Sources */,
+				D957CDA51DC72ADC00CA4E99 /* Frameworks */,
+				D957CDA61DC72ADC00CA4E99 /* Resources */,
+				E04C0A0E597EA1FC8AC20C98 /* [CP] Embed Pods Frameworks */,
+				0A5A80E1DA10AF59F332DD5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVVLocation;
+			productName = DVVLocation;
+			productReference = D957CDA81DC72ADC00CA4E99 /* DVVLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D957CDC01DC72ADC00CA4E99 /* DVVLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D957CDCD1DC72ADC00CA4E99 /* Build configuration list for PBXNativeTarget "DVVLocationTests" */;
+			buildPhases = (
+				D957CDBD1DC72ADC00CA4E99 /* Sources */,
+				D957CDBE1DC72ADC00CA4E99 /* Frameworks */,
+				D957CDBF1DC72ADC00CA4E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D957CDC31DC72ADC00CA4E99 /* PBXTargetDependency */,
+			);
+			name = DVVLocationTests;
+			productName = DVVLocationTests;
+			productReference = D957CDC11DC72ADC00CA4E99 /* DVVLocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D957CDA01DC72ADC00CA4E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = devdawei;
+				TargetAttributes = {
+					D957CDA71DC72ADC00CA4E99 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F2PW74LLJK;
+						ProvisioningStyle = Automatic;
+					};
+					D957CDC01DC72ADC00CA4E99 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D957CDA71DC72ADC00CA4E99;
+					};
+				};
+			};
+			buildConfigurationList = D957CDA31DC72ADC00CA4E99 /* Build configuration list for PBXProject "DVVLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D957CD9F1DC72ADC00CA4E99;
+			productRefGroup = D957CDA91DC72ADC00CA4E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D957CDA71DC72ADC00CA4E99 /* DVVLocation */,
+				D957CDC01DC72ADC00CA4E99 /* DVVLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D957CDA61DC72ADC00CA4E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957CDBB1DC72ADC00CA4E99 /* LaunchScreen.storyboard in Resources */,
+				D957CDB81DC72ADC00CA4E99 /* Assets.xcassets in Resources */,
+				D957CDB61DC72ADC00CA4E99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D957CDBF1DC72ADC00CA4E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A5A80E1DA10AF59F332DD5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVVLocation/Pods-DVVLocation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B005151DBA3C2691216D942 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E04C0A0E597EA1FC8AC20C98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DVVLocation/Pods-DVVLocation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D957CDA41DC72ADC00CA4E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957CDB31DC72ADC00CA4E99 /* ViewController.m in Sources */,
+				D957CDD31DC72B7B00CA4E99 /* DVVLocation.m in Sources */,
+				D957CDB01DC72ADC00CA4E99 /* AppDelegate.m in Sources */,
+				D957CDAD1DC72ADC00CA4E99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D957CDBD1DC72ADC00CA4E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D957CDC61DC72ADC00CA4E99 /* DVVLocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D957CDC31DC72ADC00CA4E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D957CDA71DC72ADC00CA4E99 /* DVVLocation */;
+			targetProxy = D957CDC21DC72ADC00CA4E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D957CDB41DC72ADC00CA4E99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D957CDB51DC72ADC00CA4E99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D957CDB91DC72ADC00CA4E99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D957CDBA1DC72ADC00CA4E99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D957CDC81DC72ADC00CA4E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D957CDC91DC72ADC00CA4E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D957CDCB1DC72ADC00CA4E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BDF4EA7B142F7D7955F148F /* Pods-DVVLocation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2PW74LLJK;
+				INFOPLIST_FILE = DVVLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D957CDCC1DC72ADC00CA4E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D48DC72221D88767D580756 /* Pods-DVVLocation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2PW74LLJK;
+				INFOPLIST_FILE = DVVLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLocation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D957CDCE1DC72ADC00CA4E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVVLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVVLocation.app/DVVLocation";
+			};
+			name = Debug;
+		};
+		D957CDCF1DC72ADC00CA4E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DVVLocationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVLocationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVVLocation.app/DVVLocation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D957CDA31DC72ADC00CA4E99 /* Build configuration list for PBXProject "DVVLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957CDC81DC72ADC00CA4E99 /* Debug */,
+				D957CDC91DC72ADC00CA4E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D957CDCA1DC72ADC00CA4E99 /* Build configuration list for PBXNativeTarget "DVVLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957CDCB1DC72ADC00CA4E99 /* Debug */,
+				D957CDCC1DC72ADC00CA4E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D957CDCD1DC72ADC00CA4E99 /* Build configuration list for PBXNativeTarget "DVVLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D957CDCE1DC72ADC00CA4E99 /* Debug */,
+				D957CDCF1DC72ADC00CA4E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D957CDA01DC72ADC00CA4E99 /* Project object */;
+}
