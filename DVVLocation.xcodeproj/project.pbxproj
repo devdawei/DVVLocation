@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F89DF3DB8405DDBBA823A88 /* libPods-DVVLocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C7E88A6651CE734ED940CE /* libPods-DVVLocation.a */; };
+		D93FBA3A1DDEED3900D6E5B2 /* DVVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D93FBA391DDEED3900D6E5B2 /* DVVLocation.m */; };
 		D957CDAD1DC72ADC00CA4E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDAC1DC72ADC00CA4E99 /* main.m */; };
 		D957CDB01DC72ADC00CA4E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDAF1DC72ADC00CA4E99 /* AppDelegate.m */; };
 		D957CDB31DC72ADC00CA4E99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDB21DC72ADC00CA4E99 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		D957CDB81DC72ADC00CA4E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D957CDB71DC72ADC00CA4E99 /* Assets.xcassets */; };
 		D957CDBB1DC72ADC00CA4E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D957CDB91DC72ADC00CA4E99 /* LaunchScreen.storyboard */; };
 		D957CDC61DC72ADC00CA4E99 /* DVVLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDC51DC72ADC00CA4E99 /* DVVLocationTests.m */; };
-		D957CDD31DC72B7B00CA4E99 /* DVVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CDD21DC72B7B00CA4E99 /* DVVLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,8 @@
 		7D48DC72221D88767D580756 /* Pods-DVVLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLocation.release.xcconfig"; path = "Pods/Target Support Files/Pods-DVVLocation/Pods-DVVLocation.release.xcconfig"; sourceTree = "<group>"; };
 		88C7E88A6651CE734ED940CE /* libPods-DVVLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DVVLocation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDF4EA7B142F7D7955F148F /* Pods-DVVLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVLocation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DVVLocation/Pods-DVVLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		D93FBA381DDEED3900D6E5B2 /* DVVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVLocation.h; sourceTree = "<group>"; };
+		D93FBA391DDEED3900D6E5B2 /* DVVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVLocation.m; sourceTree = "<group>"; };
 		D957CDA81DC72ADC00CA4E99 /* DVVLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVVLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D957CDAC1DC72ADC00CA4E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D957CDAE1DC72ADC00CA4E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,8 +47,6 @@
 		D957CDC11DC72ADC00CA4E99 /* DVVLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVVLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D957CDC51DC72ADC00CA4E99 /* DVVLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVLocationTests.m; sourceTree = "<group>"; };
 		D957CDC71DC72ADC00CA4E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D957CDD11DC72B7B00CA4E99 /* DVVLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVLocation.h; sourceTree = "<group>"; };
-		D957CDD21DC72B7B00CA4E99 /* DVVLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +85,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D93FBA371DDEED3900D6E5B2 /* DVVLocation */ = {
+			isa = PBXGroup;
+			children = (
+				D93FBA381DDEED3900D6E5B2 /* DVVLocation.h */,
+				D93FBA391DDEED3900D6E5B2 /* DVVLocation.m */,
+			);
+			path = DVVLocation;
+			sourceTree = "<group>";
+		};
 		D957CD9F1DC72ADC00CA4E99 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +117,7 @@
 		D957CDAA1DC72ADC00CA4E99 /* DVVLocation */ = {
 			isa = PBXGroup;
 			children = (
-				D957CDD01DC72B6900CA4E99 /* DVVLoaction */,
+				D93FBA371DDEED3900D6E5B2 /* DVVLocation */,
 				D957CDAE1DC72ADC00CA4E99 /* AppDelegate.h */,
 				D957CDAF1DC72ADC00CA4E99 /* AppDelegate.m */,
 				D957CDB11DC72ADC00CA4E99 /* ViewController.h */,
@@ -137,15 +146,6 @@
 				D957CDC71DC72ADC00CA4E99 /* Info.plist */,
 			);
 			path = DVVLocationTests;
-			sourceTree = "<group>";
-		};
-		D957CDD01DC72B6900CA4E99 /* DVVLoaction */ = {
-			isa = PBXGroup;
-			children = (
-				D957CDD11DC72B7B00CA4E99 /* DVVLocation.h */,
-				D957CDD21DC72B7B00CA4E99 /* DVVLocation.m */,
-			);
-			path = DVVLoaction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D957CDB31DC72ADC00CA4E99 /* ViewController.m in Sources */,
-				D957CDD31DC72B7B00CA4E99 /* DVVLocation.m in Sources */,
+				D93FBA3A1DDEED3900D6E5B2 /* DVVLocation.m in Sources */,
 				D957CDB01DC72ADC00CA4E99 /* AppDelegate.m in Sources */,
 				D957CDAD1DC72ADC00CA4E99 /* main.m in Sources */,
 			);
